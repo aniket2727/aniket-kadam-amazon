@@ -1,0 +1,402 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(228, 226, 226);
+}
+
+
+.small-letters {
+    font-size: 0.6rem;
+}
+
+
+/* this is css for the navbar */
+
+.navbar {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    padding: 7px;
+    height: 49px;
+    width: 114px;
+}
+
+.logo img:hover {
+    border: 1px solid white;
+}
+
+.deliver {
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.deliver i {
+    color: white;
+}
+
+.deliver :hover {
+    border: 1px solid wheat;
+}
+
+
+
+.input-element select {
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+
+.input-sec {
+    position: relative;
+    border: 1px solid white;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    width: 50%;
+    border: none;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.input-element select {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(236, 227, 227);
+    cursor: pointer;
+}
+
+.main-input input {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    cursor: pointer;
+    width: 670px;
+    height: 30px;
+    font-weight: 800;
+
+}
+
+.input-logo p {
+    color: white;
+    height: 30px;
+    background-color: goldenrod;
+    width: 40px;
+    cursor: pointer;
+
+}
+
+.input-logo p i {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+.flag {
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.flag :hover {
+    border: 1px solid white;
+}
+
+.flag p {
+    margin-top: 20px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.flag img {
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+
+.sign-in {
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 0.7rem;
+    color: white;
+
+}
+
+.sign-in :hover {
+
+    border: 1px solid white;
+}
+
+
+.return {
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.return :hover {
+    font-weight: 800;
+    border: 1px solid white;
+}
+
+.carts {
+    font-weight: 800;
+    display: flex;
+    cursor: pointer;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.carts i {
+    font-size: 30px;
+}
+
+.carts:hover {
+    border: 1px solid white;
+}
+
+.flag {
+
+    cursor: pointer;
+}
+
+
+
+
+
+/* this css forfirst row sections */
+
+
+.first-row {
+    width: 100%;
+    height: 39px;
+    background-color: #434a4a;
+    display: flex;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 800;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+
+.first-row p {
+    height: 20px;
+}
+
+.first-row p:hover {
+    border: 1px solid white;
+}
+
+
+.first-row-big {
+    font-size: 1rem;
+}
+
+.menu {
+    position: fixed;
+    left: -250px;
+    /* Initially position the menu outside the view */
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    background: white;
+
+    color: black;
+    transition: left 0.3s ease;
+}
+
+button {
+    background-color: #434a4a;
+    color: white;
+}
+
+.hello {
+    height: 40px;
+    background-color: #434a4a;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello h1 {
+    margin-top: 30px;
+}
+
+
+
+
+/* this cod for the image slider */
+
+.main-div {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.block {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.block img {
+    width: 100%;
+}
+
+#prev,
+#next {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+}
+
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+
+#prev,
+#next button{
+    background-color:none;
+}
+
+
+
+/* Default styles for the containers */
+.container {
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px black;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+}
+
+.container h1 {
+    font-size: 1.5rem;
+}
+
+.great-block {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.child1 {
+    width: 100px;
+    height: 100px;
+}
+
+.child1 img {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    transition: transform 0.3s ease;
+    border: 3px;
+}
+
+.child1 img:hover {
+    transform: scale(1.1);
+}
+
+.child1 p {
+    font-size: 0.6rem;
+    margin: 0;
+    padding: 0;
+}
+
+.cc1 p {
+    margin-left: 15px;
+    font-size: 1rem;
+    color: rgb(159, 159, 243);
+}
+
+.big-image img {
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 210px;
+    width: 240px;
+}
+
+.big-image img:hover {
+    transform: scale(1.1);
+}
+
+.sign-in-header {
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+}
+
+.sign-in-header h1 {
+    font-weight: 700;
+}
+
+.sign-in-header button {
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+    margin-left: 25px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.sign-in-header button:hover {
+    box-shadow: 3px 3px 3px black;
+}
+
+.image-div {
+    margin: 10px;
+}
+
+.image-div img {
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+    cursor: pointer;
+    transition: all 3s ease;
+}
+
+.image-div img:hover {
+    transform: scale(1.1);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .fcontainer-row {
+        flex-direction: column; /* Change flex direction to stack containers vertically */
+    }
+
+    .container {
+        width: 100%; /* Make containers take full width on smaller screens */
+    }
+}

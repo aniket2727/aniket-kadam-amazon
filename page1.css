@@ -1,0 +1,159 @@
+
+.body{
+    background-color: white;
+}
+
+.main-div1{
+
+    display: flex;
+}
+
+
+
+.first-subdiv{
+    width: 300px;
+    margin-left: 0px;
+    background-color: white;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+}
+
+
+
+.first-subdiv p{
+    margin: 10px;
+    font-weight: 400;
+}
+.first-subdiv h3{
+    font-weight: bold;
+}
+
+
+
+
+
+.second-subdiv{
+    width: 100%;
+    height: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+
+
+
+.image-second {
+    margin: 10px;
+}
+
+.image-second img{
+    width: 100%;
+    height: 400px;
+}
+
+/* second images */
+
+
+
+
+
+/* socond roww */
+
+/* Default styles for .second-slide-images-captions and its images */
+
+
+.second-slide-images-captions-images {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 2px 2px black;
+    flex-wrap: wrap; /* Allow images to wrap to the next line on smaller screens */
+    justify-content: center; /* Center the images horizontally */
+    padding: 10px; /* Add padding between images */
+}
+
+.second-slide-images-captions-images div {
+    flex: 1; /* Make each image container flexible to distribute space equally */
+    margin: 10px; /* Add margin around each image container */
+}
+
+.second-slide-images-captions-images img {
+    width: 100%; /* Make images fill the container width */
+    height: 200px; /* Maintain aspect ratio */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.second-slide-images-captions-images p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.prime {
+    font-weight: 900;
+    color: aqua;
+}
+
+.second-slide-images-captions-images img:hover {
+    transform: scale(1.1);
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 767px) {
+    .second-slide-images-captions-images img {
+        margin: 5px; /* Adjust margin for smaller screens */
+    }
+}
+
+
+
+
+
+.ruppe{
+    background-color: black;
+}
+
+
+
+
+
+/* Default styles for .image-slide-second and its images */
+.image-slide-second {
+    width: 100%;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px black;
+}
+
+.image-slide-second-images {
+    width: 100%;
+    background-color: rgb(233, 221, 221);
+    display: flex;
+}
+
+.image-slide-second-images img {
+    height: 170px;
+    width: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Decreased transition duration for smoother effect */
+}
+
+/* Media query for screens smaller than 768px (typical mobile devices) */
+@media (max-width: 767px) {
+    .image-slide-second {
+        margin: 5px; /* Adjust margin for smaller screens */
+    }
+
+    .image-slide-second-images {
+        flex-wrap: wrap; /* Allow images to wrap to the next line on smaller screens */
+    }
+
+    .image-slide-second-images img {
+        width: 200px; /* Make images fill the container width */
+        height: 300px; /* Maintain aspect ratio */
+        margin: 5px; /* Add some margin between images */
+    }
+}

@@ -1,0 +1,1402 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(228, 226, 226);
+    transition: filter 0.3s ease; 
+    transition: background-color 0.5s ease;
+}
+.blur {
+    filter: blur(5px);
+}
+
+.popup {
+    position: fixed;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: none;
+    margin-top: 200px;
+    margin-left: 600px;
+    border-radius: 10px;
+}
+
+.popup.active {
+    display: block;
+}
+
+
+.image-pop img{
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+
+}
+
+.close-btn{
+    margin-left: 200px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.geopopup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 2; /* Ensure a higher z-index value */
+}
+
+.geopopup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: red;
+}
+
+
+
+
+/* Default styles for the navbar */
+.navbar {
+  
+    transition: background-color 0.5s ease; /* Transition effect for background color */
+}
+
+.slow-text {
+    transition: all 0.5s ease; /* Transition effect for text properties */
+}
+
+/* CSS class to change navbar color and text color */
+.navbar.active {
+    background-color: orange /* New background color */
+}
+
+.navbar.active .slow-text {
+    color: black; /* New text color */
+}
+
+
+.first-row.active {
+    background-color: white;
+
+}
+
+
+.first-row.active p{
+    color: black;
+
+}
+
+
+.container.active {
+    background-color: grey;
+}
+
+
+.container.active h1{
+    color: white;
+}
+
+
+
+
+
+
+
+.a{
+    position: relative;
+}
+
+
+
+.b {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 50%;
+    background-color: rgba(255, 0, 0, 0.5); /* Example background color with opacity */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#slideMenu {
+    /* Your existing styles for slideMenu */
+    z-index: 1000; /* Set a higher z-index value */
+}
+.block {
+    /* Your existing styles for .block */
+    z-index: 999; /* Set a z-index value lower than slideMenu */
+}
+.small-letters {
+    font-size: 0.6rem;
+}
+
+
+/* this is css for the navbar */
+
+.navbar {
+    align-items: center;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    justify-content: space-evenly;
+}
+
+.logo img {
+    padding: 7px;
+    height: 49px;
+    width: 114px;
+    color: white;
+}
+
+.logo img:hover {
+    border: 1px solid white;
+}
+
+.deliver {
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.deliver i {
+    color: white;
+}
+
+.deliver :hover {
+    border: 1px solid wheat;
+}
+
+
+
+.input-element select {
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+
+.input-sec {
+    position: relative;
+    border: 1px solid white;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    width: 50%;
+    border: none;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    font-weight: 800;
+    border-radius: 10px; /* You can adjust the value to change the amount of rounding */
+    overflow: hidden; 
+
+    border: none;
+}
+
+.input-element select {
+    width: 50px;
+    height: 30px;
+    background-color: rgb(236, 227, 227);
+    cursor: pointer;
+}
+
+.main-input input {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    cursor: pointer;
+    width: 670px;
+    height: 30px;
+    font-weight: 800;
+
+}
+
+.input-logo p {
+    color: white;
+    height: 30px;
+    background-color: goldenrod;
+    width: 40px;
+    cursor: pointer;
+
+}
+
+.input-logo p i {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+.flag {
+    margin-left: 20px;
+    display: flex;
+
+}
+
+.flag :hover {
+    border: 1px solid white;
+}
+
+.flag p {
+    margin-top: 20px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.flag img {
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+
+.sign-in {
+    font-weight: 800;
+    cursor: pointer;
+    font-size: 0.7rem;
+    color: white;
+
+}
+
+.sign-in :hover {
+
+    border: 1px solid white;
+}
+
+
+.return {
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.return :hover {
+    font-weight: 800;
+    border: 1px solid white;
+}
+
+.carts {
+    font-weight: 800;
+    display: flex;
+    cursor: pointer;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.carts i {
+    font-size: 30px;
+}
+
+.carts:hover {
+    border: 1px solid white;
+}
+
+.flag {
+
+    cursor: pointer;
+}
+
+
+
+
+
+/* this css forfirst row sections */
+
+
+.first-row {
+    width: 100%;
+    height: 39px;
+    background-color: #434a4a;
+    display: flex;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 800;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+
+.first-row p {
+    height: 20px;
+}
+
+.first-row p:hover {
+    border: 1px solid white;
+}
+
+
+.first-row-big {
+    font-size: 1rem;
+}
+
+.menu {
+    position: fixed;
+    left: -250px;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    background: white;
+    color: black;
+    transition: left 0.3s ease;
+}
+
+button {
+    background-color: #434a4a;
+    color: white;
+    cursor: pointer;
+}
+
+.hello {
+    height: 40px;
+    background-color: #434a4a;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.hello h1 {
+    margin-top: 30px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 20px;
+}
+
+.h1 h1{
+    font-size: 20px;
+}
+
+
+/* this cod for the image slider */
+
+.main-div {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.block {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.block img {
+    width: 100%;
+}
+
+
+
+#prev,
+#next {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+}
+
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
+
+
+#prev,
+#next button{
+    background-color:none;
+}
+
+
+/* this is for containers */
+
+.fcontainer-row{
+    margin-bottom: 20px; /* Add margin-bottom to create space between fcontainer-row and main-div */
+    position: relative;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    padding: 10px;
+}
+.container{
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px black;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+}
+
+.container h1{
+    font-size: 1.5rem;
+}
+
+
+.heading{
+    
+    height: 100px;
+}
+
+.great-block{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px; /* Adjust the gap between child elements as needed */
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.child1{
+    width: 100px;
+    height: 100px;
+}
+
+.child1 img{
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin: 0; 
+    transition: transform 0.3s ease;
+    border: 3px;
+}
+
+
+.child1 img:hover{
+    transform: scale(1.1);
+
+}
+
+.child1 p{
+    font-size: 0.6rem;
+    margin: 0;  
+    padding:0 ;
+}
+
+.cc1 p{
+    margin-left: 15px;
+    font-size: 1rem;
+    color: rgb(159, 159, 243);
+}
+
+
+.big-image img{
+    margin-left: 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 210px;
+    width: 240px;
+}
+
+.big-image img:hover{
+    transform: scale(1.1);
+
+}
+
+
+.sign-in-header{
+   
+    height: 150px;
+    width: 250px;
+    margin: 10px;
+}
+
+
+.sign-in-header h1{
+    font-weight: 700;
+
+}
+
+
+.sign-in-header button{
+width: 200px;
+border: none;
+border-radius: 10px;
+background-color: gold;
+margin-left: 25px;
+height: 30px;
+cursor: pointer;
+font-weight: 900s;
+}
+
+
+.sign-in-header button:hover{
+    box-shadow: 3px 3px 3px black;
+}
+
+
+.image-div{
+    margin: 10px;
+}
+.image-div img{
+    margin-left: 10px;
+    height: 200px;
+    width: 250px;
+    cursor: pointer;
+    transition: all 3sec ease;
+}
+
+.image-div img:hover{
+    transform: scale(1.1);
+    
+
+}
+
+
+
+/* section slider */
+
+.sec-2{
+ 
+    height: 315px;
+    padding: 25px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto; /* This centers the section horizontally */
+    text-align: center;
+    
+}
+
+
+
+.slide-sce  h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
+
+
+.slide-sec{
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px 20px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+}
+
+
+.product-slide{
+    display: flex;
+    margin-top: 5px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.product-slide{
+    flex-basis: calc(33.33% - 20px);
+}
+
+
+
+.product-slide::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+    cursor: pointer;
+
+}
+
+.product-slide::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.product-slide li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.l-btn,.r-btn{
+    background-color: rgb(255,255,255,1);
+    height: 90px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 35%;
+    position: absolute;
+    border: 3px solid transparent;
+
+}
+
+.l-btn{
+    border-radius: 0 5px 5px 0;
+    left:20px;
+
+}
+
+
+.r-btn{
+    border-radius: 0 5px 5px 0;
+    right:20px;   
+}
+
+
+.l-btn:hover{
+    border: 3px solid rgb(2,150,150);
+}
+
+.r-btn:hover{
+    border: 3px solid rgb(2,150,150);
+}
+
+.r-btn i, .l-btn i{
+
+    color: rgb(54,54,);
+    position: absolute;
+    font-size: 30px;
+    top: 35%;
+    left: 13%;
+    right: 13%;
+
+}
+
+
+
+/* this css for second sec */
+.sec-21{
+    margin-top: 30px;
+    height: 315px;
+    padding: 25px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    width: 80%;
+    align-items: center;
+    margin-left: 130px;
+    margin-bottom: 10px;
+
+}
+
+
+.slide-sce1  h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
+
+
+.slide-sec1{
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px 20px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+    
+}
+
+
+.product-slide1{
+    display: flex;
+    margin-top: 5px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+
+
+.product-slide1::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+    cursor: pointer;
+
+}
+
+.product-slide1::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.product-slide1 li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.l-btn1,.r-btn1{
+    background-color: rgb(255,255,255,1);
+    height: 90px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 35%;
+    position: absolute;
+    border: 3px solid transparent;
+
+}
+
+
+.l-btn1{
+    border-radius: 0 5px 5px 0;
+    left:20px;
+
+}
+
+
+.r-btn1{
+    border-radius: 0 5px 5px 0;
+    right:20px;   
+}
+
+
+.l-btn1:hover{
+    border: 3px solid rgb(2,150,150);
+}
+
+.r-btn1:hover{
+    border: 3px solid rgb(2,150,150);
+}
+
+.r-btn1 i, .l-btn1 i{
+
+    color: rgb(54,54,);
+    position: absolute;
+    font-size: 30px;
+    top: 35%;
+    left: 13%;
+    right: 13%;
+
+}
+
+
+
+/* this css for third slider section */
+.sec-22{
+    margin-left: 120px;
+    width: 80%;
+    height: 315px;
+    padding: 25px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+
+}
+
+
+.slide-sce2  h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
+
+
+.slide-sec2{
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px 20px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+}
+
+
+.product-slide2{
+    display: flex;
+    margin-top: 5px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+
+
+.product-slide2::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+    cursor: pointer;
+
+}
+
+.product-slide2::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.product-slide2 li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.l-btn2,.r-btn2{
+    background-color: rgb(255,255,255,1);
+    height: 90px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 35%;
+    position: absolute;
+    border: 3px solid transparent;
+
+}
+
+
+.l-btn2{
+    border-radius: 0 5px 5px 0;
+    left:20px;
+
+}
+
+
+.r-btn2{
+    border-radius: 0 5px 5px 0;
+    right:20px;   
+}
+
+
+.l-btn2:hover{
+    border: 3px solid rgb(2,150,150);
+}
+
+.r-btn2:hover{
+    border: 3px solid rgb(2,150,150);
+}
+
+.r-btn2 i, .l-btn2 i{
+
+    color: rgb(54,54,);
+    position: absolute;
+    font-size: 30px;
+    top: 35%;
+    left: 13%;
+    right: 13%;
+
+}
+
+
+/* small container */
+.container1 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* Adjust the height as needed */
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 130px;
+  
+}
+
+.section-small {
+    width: 970px;
+    height: 250px; 
+    display: flex;
+    background-color: white;
+    /* You can set a fixed width or use other width styles here */
+}
+
+
+.section-small{
+    font-weight:bold ;
+}
+.stars{
+    display: flex;
+    margin-top: 10px;
+}
+
+.stars p{
+    color: rgb(225, 225, 34);
+}
+
+.namebox{
+    margin-top: 30px;
+}
+
+.boxcontent button{
+    background-color: red;
+    color:rgba(255, 255, 255, 0.918) ;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+}
+
+.boxcontent{
+    margin-top: 20px;
+}
+
+
+.price a{
+    color: rgb(25, 245, 245);
+}
+.obj{
+    margin-left: 20px;
+}
+
+.prime{
+    display: flex;
+}
+
+
+/* this is for product slide 3 */
+.sec-3{
+    width: 80%;
+    margin-left: 120px;
+    height: 315px;
+    padding: 25px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+
+}
+
+
+.slide-sce3  h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+
+}
+
+
+.slide-sec3{
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px 20px;
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+}
+
+
+.product-slide3{
+    display: flex;
+    margin-top: 5px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+
+
+.product-slide3::-webkit-scrollbar{
+    background-color: transparent;
+    height: 7px;
+    cursor: pointer;
+
+}
+
+.product-slide3::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.product-slide3 li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.l-btn3,.r-btn3{
+    background-color: rgb(255,255,255,1);
+    height: 90px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+    top: 35%;
+    position: absolute;
+    border: 3px solid transparent;
+
+}
+
+
+.l-btn3{
+    border-radius: 0 5px 5px 0;
+    left:20px;
+
+}
+
+
+.r-btn3{
+    border-radius: 0 5px 5px 0;
+    right:20px;   
+}
+
+
+.l-btn3:hover{
+    border: 3px solid rgb(2,150,150);
+}
+
+.r-btn3:hover{
+    border: 3px solid rgb(2,150,150);
+}
+
+.r-btn3 i, .l-btn3 i{
+
+    color: rgb(54,54,);
+    position: absolute;
+    font-size: 30px;
+    top: 35%;
+    left: 13%;
+    right: 13%;
+
+}
+
+
+.sec-3 a{
+    color:#007185;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+/* signin */
+
+
+.signin{
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
+    background-color:white ;
+    
+}
+
+
+
+
+
+.content-sign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center-align text within the container */
+    margin-top: 10px;
+  }
+  
+  .center-button {
+    margin-top: 10px; /* Adjust the margin as needed for spacing */
+  }
+  
+
+  .content-sign button{
+    width: 200px;
+    background-color:#f4f408 ;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+    color: black;
+  }
+
+  .content-sign a{
+    color: #007185;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+
+  .p-cust{
+    font-size: 16px;
+  }
+
+
+  /* fooetr */
+
+
+  footer{
+    margin-top: 20px;
+}
+  .first1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.first1 a{
+    font-size: 10px;
+}
+
+.first1 p{
+    font-size: 15px;
+}
+
+.first2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.first2 a{
+    font-size: 10px;
+}
+
+.first2 p{
+    font-size: 15px;
+}
+
+
+
+
+.foot-panel1{
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+ul{
+    margin-top: 1rem;
+}
+
+
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: #dddddd;
+}
+
+
+.foot-panel3{
+    background-color:#222f3d ;
+    color:white ;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+
+
+.foot-panel4{
+    background-color: #0F1111;
+    color: white;
+   
+
+    /* display: flex;
+    justify-content: center; */
+
+}
+
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 25px;
+}
+
+.copyright{
+    padding: 10px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.Background {
+    border: none;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+   
+    .navbar p{
+        margin: 0px;
+        font-size: 10px;
+    }
+    .input-sec{
+        border-radius: 10px; /* You can adjust the value to change the amount of rounding */
+        overflow: hidden; 
+        border: none;
+        width: 350px;
+    }
+
+    .main-input input{
+        width: 250px;
+    }
+    
+
+    .flag{
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+    .flag p{
+       margin-top: 20px;
+    }
+    .fcontainer-row {
+        display: flex;
+        flex-wrap: wrap;/* Change flex direction to stack containers vertically */
+        margin-left: 70px;
+     }
+     .container{
+        width: 280px;
+        margin-top: 10px;
+       
+     }
+     .sec-21{
+       margin-left: 50px;
+     }
+     .sec-22{
+        margin-left: 50px;
+     }
+
+     .container1{
+        margin-left: 85px;
+        height: 320px;
+     }
+     .sec-3{
+        margin-left: 50x;
+     }
+    .popup{
+        margin-left: 280px;
+    }
+    .first-row p{
+        font-size: 10px;
+    }
+    
+
+    .main-div{
+        width: 100%;
+    }
+    .Background {
+        border: none;
+    background-color: #434a4a;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+    
+    }
+
+    .section-small{
+        font-size: 10px;
+    }
+
+
+    .ani{
+        margin-left: 50px;
+    }
+
+    .signin {
+        margin-left: 100px;
+        margin-top: 30px;
+        height: 150px;
+        width: 80%;
+        background-color: white;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .main-input input {
+        font-family: "Amazon Ember", Arial, sans-serif;
+        cursor: pointer;
+        width: 399px;
+        height: 30px;
+        font-weight: 800;
+
+    }
+    .fcontainer-row {
+       display: flex;
+       flex-wrap: wrap;/* Change flex direction to stack containers vertically */
+       
+    }
+    .container{
+        width: 280px;
+        margin-top: 10px;
+     }
+     .sec-21{
+        margin-left: 50px;
+      }
+      .sec-22{
+        margin-left: 50px;
+      }
+
+      .container1{
+        margin-left: 85px;
+      }
+      .sec-3{
+        margin-left: 50px;
+      }
+      .popup{
+        margin-left: 280px;
+      }
+      .first-row p{
+        font-size:10px;
+    }
+    .first-row-big  p{
+        font-size: 15px;
+    }
+      
+     
+   
+   
+
+}

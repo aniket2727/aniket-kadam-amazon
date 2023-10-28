@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="popup">
+        <span class="close-btn" onclick="closePopup()"><i class="fa-solid fa-circle-xmark"></i></span>
+        <div class="image-pop">
+            <p>70% Off On Todays shopping</p>
+            <img src="tv3.jpg">
+
+        </div>
+    </div>
+
+
+
+
+    <div class="navbar">
+        <div class="logo">
+            <!-- <img src="main-amazon.webp"> -->
+        </div>
+
+        <div class="deliver">
+            <p class="slow-text" class="small-letters">Deliver to</p>
+            <i class="slow-text" class="fas fa-map-marker-alt"></i>
+            <p class="slow-text">Phaltan 415523</p>
+        </div>
+
+
+        <div class="input-sec">
+            <div class="input-element">
+                <select>
+                    <option value="option1">All</option>
+                    <option value="option1">Amazon skills</option>
+                    <option value="option1">Amazon Fashion</option>
+                    <option value="option2">Amazon Fresh</option>
+                    <option value="option3">Amazon Devices</option>
+                    <option value="option1">Books</option>
+                    <option value="option2">Beauty</option>
+                    <option value="option3">Cars &Bike</option>
+                    <option value="option1">App &Games</option>
+                    <option value="option2">Baby</option>
+                    <option value="option3">Amazon Pharmacy</option>
+                    <!-- Add more unique options as needed -->
+                </select>
+            </div>
+
+            <div class="main-input">
+                <input class="main-input" placeholder="amazon.in" type="text">
+            </div>
+
+            <div class="input-logo">
+                <p class="slow-text"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></p>
+            </div>
+        </div>
+
+
+        <div class="flag">
+            <img src="1indianflag.png">
+            <p class="slow-text">EN</p>
+
+
+        </div>
+
+        <div class="sign-in">
+            <p class="slow-text" class="small-letters">Hello sign In</p>
+            <p class="slow-text">accounts &Lits</p>
+
+        </div>
+
+        <div class="return">
+            <p class="slow-text" class="small-letters">Return</p>
+            <p class="slow-text">& Orders</p>
+        </div>
+
+        <div class="carts">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="slow-text">catrs</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- this is for the first row -->
+
+    <div class="first-row">
+
+        <p id="toggleBtn"><i class="fa-solid fa-bars"></i> All</p>
+        <button id="changeColorButton" class="back-btn" class="Background">Dark Mode</button>
+
+        <button id="show-location-button" class="Background">Show Location</button>
+        <div class="geopopup" id="location-popup">
+            <div class="geopopup-content">
+                <h3>Current Geolocations</h3>
+                <p id="latitude"></p>
+                <p id="longitude"></p>
+                <p id="weather-info"></p>
+                <button id="go-back-button">Go Back</button>
+            </div>
+        </div>
+
+
+
+
+        <div id="slideMenu" class="menu">
+
+            <div class="hello">
+                <h1> <i class="fa-regular fa-user"></i> Hello sign In <button id="toggleBtn1"><i
+                            class="fa-solid fa-xmark"></i></button></h1>
+            </div>
+
+            <div class="h1">
+                <h1>Trending</h1>
+                <p>Best seller</p>
+                <p>New release</p>
+                <p>Moves and Sheker</p>
+            </div>
+            <hr>
+            <div class="h1">
+                <h1>Degistal Content abd devices</h1>
+                <p>amazon mini tV</p>
+                <p>Echoo & Aleska </p>
+                <p>Fire Tv</p>
+                <p>Audible Audiance</p>
+                <p>Amazon Prime Vedio</p>
+                <p>Amazon Prime</p>
+
+            </div>
+            <hr>
+
+            <div class="h3">
+                <h1>Degistal Content abd devices</h1>
+                <p>amazon mini tV</p>
+                <p>Echoo & Aleska </p>
+                <p>Fire Tv</p>
+                <p>Audible Audiance</p>
+                <p>Amazon Prime Vedio</p>
+                <p>Amazon Prime</p>
+
+            </div>
+            <hr>
+        </div>
+        <p>Animal Min Tv</p>
+        <p>Sell</p>
+        <p>Todays Dells</p>
+        <p>Best Sealer</p>
+        <p>Mobile</p>
+        <p>Electronics</p>
+        <p>Customer services</p>
+        <p>Prime</p>
+        <p>New release</p>
+        <p>Gift Ideas</p>
+        <p>Home Clitchen</p>
+        <p>Fashins</p>
+        <p class="c">Great Indian Festival</p>
+    </div>
+
+    </div>
+
+
+
+    <div class="main-div" class="a">
+
+        <div class="block">
+
+            <!-- Clickable image gallery -->
+            <img src="image1.jpg" class="clickable-image" data-href="page1.html" alt="Description of Image 1">
+            <img src="image2.jpg" class="clickable-image" data-href="page1.html" alt="Description of Image 2">
+            <img src="image3.jpg" class="clickable-image" data-href="page1.html" alt="Description of Image 3">
+            <img src="image4.jpg" class="clickable-image" data-href="page1.html" alt="Description of Image 1">
+            <img src="image5.jpg" class="clickable-image" data-href="page1.html" alt="Description of Image 2">
+            <img src="image6.jpg" class="clickable-image" data-href="page1.html" alt="Description of Image 3">
+            <!-- Add more images as needed -->
+
+
+        </div>
+
+        <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+        <button id="next"><i class="fa-solid fa-angle-right"></i> </button>
+    </div>
+
+
+
+
+
+
+    <!-- this is for horizonatal row -->
+
+    <div class="fcontainer-row" class="b">
+        <div class="container">
+
+            <div class="heading">
+                <h1>Great offers on wide range of TVs for every room</h1>
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    <img src="tv1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Tv | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                   
+                    <img src="tv2.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Tv | Up To 60% off</p>
+
+                </div>
+
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    
+                    <img src="tv3.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Tv | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                  
+                    <img src="laptop1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Tv | Up To 60% off</p>
+                </div>
+            </div>
+
+
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+        </div>
+
+        <div class=" container">
+            <div class="heading">
+                <h1>Great offers on earphones and headphones</h1>
+            </div>
+
+            <div class="big-image">
+                
+                <img src="headphone.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+            </div>
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+        </div>
+
+        <div class=" container">
+
+            <div class="heading">
+                <h1>Up to 40% off | HeadPhones and tablets</h1>
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                 
+                    <img src="headphone.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Headphones | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="newheadphones3.jpg">
+                    <p>Bujet Headphones | Up To 60% off</p>
+
+                </div>
+
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                   
+                    <img src="newgeadphones4.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Headphones | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+        
+                    <img src="newheadphone.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Headphones | Up To 60% off</p>
+                </div>
+            </div>
+
+
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+
+        </div>
+        <div class="container">
+            <div class="sign-in-header">
+                <h1>sign In for the best experience</h1>
+                <button>sign In</button>
+            </div>
+
+            <div class="image-div">
+                <img src="laptop1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+               
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- this is secons row -->
+
+    <div class="fcontainer-row">
+        <div class="1c  container">
+
+            <div class="heading">
+                <h1>Great offers on wide range of TVs for every room</h1>
+            </div>
+
+            <div class="big-image">
+             
+                <img src="tv2.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+            </div>
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+        </div>
+
+        <div class="2c container">
+            <div class="heading">
+                <h1>Up to 40% off | Electronics and consumer</h1>
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                   
+                    <img src="fridge.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Fridge | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="washing machine.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    
+                    <p>Bujet Washing machines  | Up To 60% off</p>
+
+                </div>
+
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    <img src="ac1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    
+                    <p>Bujet Air Conditionar | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    
+                    <img src="microwave.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet mivrowave | Up To 60% off</p>
+                </div>
+            </div>
+
+
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+
+        </div>
+
+        <div class="3c container">
+
+            <div class="heading">
+                <h1>Up to 40% off | Fashions and shoes</h1>
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    
+                    <img src="shoes1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet shoes| Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                   
+                    <img src="shoes2.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet shoes | Up To 60% off</p>
+
+                </div>
+
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    
+                    <img src="shoes3.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet shoes | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    
+                    <img src="d1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Dress | Up To 60% off</p>
+                </div>
+            </div>
+
+
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+
+        </div>
+        <div class="4c container">
+
+            <div class="heading">
+                <h1>Great offers on wide range of TVs for every room</h1>
+            </div>
+
+            <div class="big-image">
+                <img src="wasline.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                
+            </div>
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- this html for scetions slider-->
+
+
+    <section class="sec-2">
+        <div class="slide-sec">
+            <div class="l-btn">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="r-btn">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <h3>Frequently repurchased in Beauty & Personal Care</h3>
+
+            <ul class="product-slide">
+
+                <img src="31.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="32.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="33.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="34.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="35.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="36.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="37.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="38.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="39.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="40.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                
+                
+
+            </ul>
+        </div>
+
+    </section>
+
+
+    <!-- this is section 2 slider -->
+
+    <section class="sec-21">
+        <div class="slide-sec1">
+            <div class="l-btn1">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="r-btn1">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <h3>Frequently repurchased  smart watches</h3>
+
+            <ul class="product-slide1">
+
+                <img src="watch1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch2.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch3.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch4.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch5.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch6.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch7.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch8.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch9.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch10.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch11.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="watch2.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+               
+
+            </ul>
+        </div>
+
+    </section>
+
+
+    <!-- third row with blokcs -->
+    <div class="fcontainer-row">
+        <div class="1c  container">
+
+            <div class="heading">
+                <h1>Great offers on wide range of mobiles & tablets </h1>
+            </div>
+
+            <div class="big-image">
+                <img src="mobile4.jpg">
+            </div>
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+        </div>
+
+        <div class="2c container">
+            <div class="heading">
+                <h1>Up to 40% off | Electonics and services</h1>
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    <img src="washing2.jpg">
+                    <p>Bujet washing machine | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="headphone.jpg">
+                    <p>Bujet headphones | Up To 60% off</p>
+
+                </div>
+
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    <img src="geberatort.jpg">
+                    <p>Bujet Jenerator  | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="cucle.jpg">
+                    <p>Bujet Cycle | Up To 60% off</p>
+                </div>
+            </div>
+
+
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+
+        </div>
+
+        <div class="3c container">
+
+            <div class="heading">
+                <h1>Up to 40% off | Fashions and make up</h1>
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    <img src="women sari.jpg">
+                    <p>Bujet saree | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="sandle.jpg">
+                    <p>Bujet sandle | Up To 60% off</p>
+
+                </div>
+
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    <img src="makeup.jpg">
+                    <p>Bujet makeup | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="fashion.jpg">
+                    <p>Bujet dress | Up To 60% off</p>
+                </div>
+            </div>
+
+
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+
+        </div>
+        <div class="4c container">
+
+            <div class="heading">
+                <h1>Great offers on wide range of TVs for every room</h1>
+            </div>
+
+            <div class="big-image">
+                <img src="wasline.jpg">
+            </div>
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <section class="sec-22">
+        <div class="slide-sec2">
+            <div class="l-btn2">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="r-btn2">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <h3>Related to items you've viewed</h3>
+
+            <ul class="product-slide2">
+
+                <img src="s1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="s2.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="s3.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="s4.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="s5.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="s6.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="s7.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="s8.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="s9.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="s10.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+               
+
+
+               
+
+
+            </ul>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- small box -->
+
+    <div class="container1">
+        <div class="section-small">
+            <div class="namebox obj">
+                <h1>Boult</h1>
+                <p>Just Launcehd ! clear calling 4 map</p>
+
+                <p>50h playlife</p>
+            </div>
+
+
+            <div class="imagebox obj">
+                <img src="hh.jpg" height="180px" width="180px">
+            </div>
+
+            <div class="boxcontent obj">
+                <h3>Boult audio lanched W50 blultoooth truly</h3>
+                <h3>wireless in ear Airbud with 50h playtime</h3>
+                <div class="stars">
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                    <p><i class="fa-solid fa-star"></i></p>
+                </div>
+
+                <br>
+                <button>Add to list</button>
+
+                <p class="price">
+                    <i class="fa-solid fa-indian-rupee-sign rupaya"></i>
+                    2000
+                    <i class="fa-solid fa-check"></i><a>price</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <section class="sec-3" class="ani">
+        <div class="slide-sec3">
+            <div class="l-btn3">
+                <i class="fa-solid fa-chevron-left"></i>
+            </div>
+            <div class="r-btn3">
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+
+            <h3>Festive wear from small businesses <a> See all offers</a></h3>
+
+            <ul class="product-slide3">
+
+                
+
+
+
+
+                <img src="d1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="d2.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="d3.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="d4.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="d5.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="d6.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="d7.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="d8.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="d9.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                <img src="d10.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                
+               
+
+
+
+            </ul>
+        </div>
+
+    </section>
+    <!-- block4 rows -->
+    <div class="fcontainer-row">
+        <div class="1c  container">
+
+            <div class="heading">
+                <h1>Great offers on wide range of TVs for every room</h1>
+            </div>
+
+            <div class="big-image">
+                <img src="mobile4.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+             
+            </div>
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+        </div>
+
+        <div class="2c container">
+            <div class="heading">
+                <h1>Up to 40% off | Smartphones that suit your budget</h1>
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    <img src="washing machine.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Tv | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="washing2.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Tv | Up To 60% off</p>
+
+                </div>
+
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    
+                    <img src="geberatort.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Tv | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="cucle.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    
+                    <p>Bujet Tv | Up To 60% off</p>
+                </div>
+            </div>
+
+
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+
+        </div>
+
+        <div class="3c container">
+
+            <div class="heading">
+                <h1>Up to 40% off | Smartphones that suit your budget</h1>
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                  
+                    <img src="women sari.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Tv | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="sandle.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    
+                    <p>Bujet Tv | Up To 60% off</p>
+
+                </div>
+
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                   
+                    <img src="makeup.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Tv | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    
+                    <img src="fashion.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet Tv | Up To 60% off</p>
+                </div>
+            </div>
+
+
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+
+        </div>
+        <div class="4c container">
+
+            <div class="heading">
+                <h1>Great offers on wide range of TVs for every room</h1>
+            </div>
+
+            <div class="big-image">
+                <img src="wasline.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                
+            </div>
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="fcontainer-row">
+        <div class="1c  container">
+
+            <div class="heading">
+                <h1>Great offers on wide range of TVs for every room</h1>
+            </div>
+
+            <div class="big-image">
+                <img src="laptop1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+              
+            </div>
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+        </div>
+
+        <div class="2c container">
+            <div class="heading">
+                <h1>Up to 40% off | Watches and electronics </h1>
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                   
+                    <img src="washing machine.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>  Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    
+                    <img src="washing2.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p> Up To 60% off</p>
+
+                </div>
+
+            </div>
+
+            <div class="great-block">
+
+                <div class="watch2">
+                    <img src="geberatort.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p> </p>
+
+                </div>
+                <div class="child1">
+                    <img src="cucle.jpg">
+                    <p> </p>
+                </div>
+            </div>
+
+
+            <div class="cc1">
+                <!-- <p>find for more offers</p> -->
+            </div>
+
+
+
+        </div>
+
+        <div class="3c container">
+
+            <div class="heading">
+                <h1>Up to 40% off | shoes and sandles</h1>
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    <img src="s4.jpg">
+                    <p>Bujet shoes| Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="s3.jpg">
+                    <p>Bujet shoes | Up To 60% off</p>
+
+                </div>
+
+            </div>
+
+            <div class="great-block">
+
+                <div class="child1">
+                    <img src="s2.jpg">
+                    <p>Bujet shoes | Up To 60% off</p>
+
+                </div>
+                <div class="child1">
+                    <img src="s1.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+                    <p>Bujet shoes | Up To 60% off</p>
+                </div>
+            </div>
+
+
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+
+
+
+        </div>
+        <div class="4c container">
+
+            <div class="heading">
+                <h1>Great offers on wide range of TVs for every room</h1>
+            </div>
+
+            <div class="big-image">
+                
+                <img src="wasline.jpg" class="clickable-image" data-href="page2.html" alt="Description of Image 1">
+            </div>
+            <div class="cc1">
+                <p>find for more offers</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="signin">
+        <hr>
+        <div class="content-sign">
+            <p>See personalized recommendations</p>
+            <div class="center-button">
+                <button>Sign In</button>
+            </div>
+            <p class="p-cust">New Customers<a>Start Here</a></p>
+        </div>
+    </div>
+
+
+    <hr>
+
+
+    <footer>
+        <div class="foot-panel1">
+            back to top
+        </div>
+
+        <div class="foot-panel2">
+            <ul>
+                <p>Get To Know</p>
+                <a>About Us</a>
+                <a>Carrer</a>
+                <a>Press Releases</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Conncet with Us</p>
+                <a>FaceBook</a>
+                <a>Twitter</a>
+                <a>Instagram</a>
+                <a>Telegram</a>
+            </ul>
+            <ul>
+                <p>Make Money With Us</p>
+                <a>Sell on Amazon</a>
+                <a>Amazon Global Selling</a>
+                <a>Become an Affiliate</a>
+                <a>Amazon Pay on Merchants </a>
+            </ul>
+            <ul>
+                <p>Lets Us help You</p>
+                <a>Covid &Help</a>
+                <a>Your account</a>
+                <a>Center</a>
+                <a>Help</a>
+            </ul>
+        </div>
+
+
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+
+
+        <div class="foot-panel4">
+
+            <div class="first1">
+                <div class="box-foot">
+                    <p>AbeBook</p>
+                    <a>Books ,Arts</a><br>
+                    <a>Collcetons</a>
+                </div>
+                <div class="box-foot">
+                    <p>amazon web services</p>
+                    <a>Scalable Clouds</a><br>
+                    <a>Computer services</a>
+                </div>
+                <div class="box-foot">
+                    <p>Audible</p>
+                    <a>Downlods</a><br>
+                    <a>Audio Book </a>
+                </div>
+                <div class="box-foot">
+                    <p>DPpreview</p>
+                    <a>Digita</a><br>
+                    <a>Photography</a>
+                </div>
+
+                <div class="box-foot">
+                    <p>IMD'd</p>
+                    <a>Movies</a><br>
+                    <a>Celebraties ,Tv</a>
+                </div>
+            </div>
+
+
+            <div class="pages">
+                <a>Conditions of use</a>
+                <a>privacy Notice</a>
+                <a> Your Add Privacy Choice </a>
+
+                <div class="copyright">
+                    © 1996-2023, Amazon.com, Inc. or its affiliates
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="index.js"> </script>
+</body>
+
+</html>
